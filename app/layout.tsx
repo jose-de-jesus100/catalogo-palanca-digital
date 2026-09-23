@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: CONFIG.marca.logo ?? "/productos/vela.jpg",
-        width: 1024,
-        height: 1024,
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
         alt: CONFIG.marca.negocio,
       },
     ],
