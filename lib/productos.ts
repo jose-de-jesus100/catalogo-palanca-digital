@@ -24,8 +24,7 @@ export const PRODUCTOS: Producto[] = [
     precio: "$199 USD/mes",
     precioAntes: "$399 USD/mes",
     facilidades: "Precio de lanzamiento. Pago recurrente mensual. Anticipo requerido: 50% ($99.50 USD).",
-    destacado: true,
-  },
+      },
   {
     slug: "catalogo-vivo",
     nombre: "Catálogo Vivo",
@@ -58,8 +57,7 @@ export const PRODUCTOS: Producto[] = [
     precioAntes: "$899 USD",
     facilidades:
       "Precio de lanzamiento. Anticipo requerido: 50% ($199.50 USD). Resto + $12 USD/mes de alojamiento (aparte; si no se paga, la página se desactiva).",
-    destacado: true,
-  },
+      },
   {
     slug: "seo-local",
     nombre: "SEO Local",

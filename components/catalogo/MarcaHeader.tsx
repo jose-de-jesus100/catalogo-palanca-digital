@@ -14,10 +14,10 @@ export function MarcaHeader() {
       <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
         {marca.logo && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={marca.logo} alt={marca.negocio} className="h-80 w-80 rounded-full object-cover" />
+          <img src={marca.logo} alt={marca.negocio} className="h-40 w-40 rounded-full object-cover" />
         )}
 
-        <h1 className="font-display text-5xl font-semibold text-white sm:text-6xl">
+        <h1 className="sr-only">
           {marca.negocio}
         </h1>
       </div>
